@@ -7,7 +7,6 @@ import xlrd
 import time
 
 class app:
-
     def __init__(self):
         self.driver = Chrome(ChromeDriverManager().install())
         self.url = 'http://93.188.161.218/'
